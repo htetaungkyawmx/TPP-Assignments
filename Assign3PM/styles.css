@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4px 16px;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+a:hover:after {
+  content: "";
+  display: block;
+  height: 4px;
+  /* Larger underline */
+  background-color: blue;
+  /* Different color */
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+}
+
+img {
+  width: 40%;
+  margin: 1%;
+  padding: 20px;
+  transition: transform 0.3s;
+
+
+}
+
+img:hover {
+
+  transform: scale(1.1);
+
+}
+
+/*# sourceMappingURL=styles.css.map */
