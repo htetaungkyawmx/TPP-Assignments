@@ -1,0 +1,10 @@
+.l-wrap-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1400px) {
+  .l-wrap-inner {
+    max-width: 1518px;
+  }
+}

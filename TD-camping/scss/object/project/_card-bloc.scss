@@ -1,0 +1,46 @@
+.p-bloc--card {
+  margin: -130px 0 80px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  .card-bloc {
+    width: calc(100% / 4 - 15px);
+    background: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__inner {
+      padding: 40px 20px;
+    }
+
+    .img-box {
+      img {
+        max-width: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+
+    .txt-box {
+      text-align: center;
+
+      h3 {
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+      }
+    }
+  }
+}

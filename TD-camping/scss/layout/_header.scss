@@ -1,0 +1,63 @@
+.l-header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+
+  &__layout {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+
+    h1 {
+      margin-right: 20px;
+    }
+  }
+
+  &__menu {
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      padding: 16px 0;
+
+      li {
+        a {
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #d2d2d2;
+          padding: 0 10px;
+          text-decoration: none;
+
+          &.is-active {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__signin {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .l-header {
+    &__menu {
+      ul {
+        li {
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
